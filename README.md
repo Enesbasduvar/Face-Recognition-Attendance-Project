@@ -20,7 +20,7 @@ This project, developed using Python, takes attendance using facial recognition 
 To run your project locally, follow these steps:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/face-recognition-attendance.git
+   git clone https://github.com/Enesbasduvar/Face-Recognition-Attendance-Project.git
    ```
 2. Install necessary dependencies:
    ```bash
