@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New User</title>
+</head>
+<body>
+    <h1>Add New User</h1>
+    <form action="/add" method="POST" enctype="multipart/form-data">
+        <label for="newusername">Username:</label>
+        <input type="text" id="newusername" name="newusername" required><br><br>
+
+        <label for="newuserid">User ID:</label>
+        <input type="text" id="newuserid" name="newuserid" required><br><br>
+
+        <label for="userimage">Capture Photos for Facial Recognition:</label><br>
+        <input type="file" id="userimage" name="userimage" accept="image/*" multiple required onchange="this.form.submit()"><br><br>
+
+        <input type="submit" value="Add User" style="display: none;">
+    </form>
+</body>
+</html>
